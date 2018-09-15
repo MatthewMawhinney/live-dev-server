@@ -1,5 +1,7 @@
 # Static-Live-Server
 
+<img src="src/assets/img/wifi.png" alt="wifi" style="width: 150px display:inline-block"/>
+
 ### A simple static development live server that compares npm scripts, gulp, and webpack doing the same job. Built for my learning and for you to use.
 
 Static-Live-Server (SLS) is a project I created to learn and compare npm scripts, gulp, and webpack as task runner and build tools. SLS was created to optimize the creation of static sites, SLS will watch changes to you html, css, scss, js, and images and reload the browser. Using BrowserSync, SLS allows you to compile your site to a production build, test across multiple devices on your network, and test dependencies that require HTTPS. SLS will compile SASS to CSS, concatenate and minify CSS, concatenate and minify JS, compile ES6 to ES5, and minify images.
