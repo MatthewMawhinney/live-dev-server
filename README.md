@@ -1,6 +1,6 @@
 # Static-Live-Server
 
-<img src="src/assets/img/wifi.png" alt="wifi" style="width: 150px display:inline-block"/>
+<img src="src/assets/img/wifi.png" alt="wifi" style="width: 150px; display:inline-block"/>
 
 ### A simple static development live server that compares npm scripts, gulp, and webpack doing the same job. Built for my learning and for you to use.
 
