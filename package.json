@@ -11,7 +11,7 @@
     "cssmin": "cleancss -o dist/css/style.min.css dist/css/style.min.css",
     "concat:js": "mkdirp dist/js && babel src/js/*.js -o dist/js/app.min.js",
     "uglify": "uglifyjs dist/js/app.min.js -m -o dist/js/app.min.js",
-    "build:image": "imagemin --out-dir=dist/img assets/img/*",
+    "build:image": "imagemin assets/img/* --out-dir=dist/img",
     "build:css": "npm run sass && npm run concat:css && npm run cssmin",
     "build:js": "npm run concat:js && npm run uglify",
     "build": "npm run html & npm-run-all build:*",
