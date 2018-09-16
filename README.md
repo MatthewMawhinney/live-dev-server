@@ -10,4 +10,4 @@ Clone the repo and run ```npm install``` from there you can remove my HTML, SASS
 
 Note: There is a bug for Windows users using npm scripts to run the server. BrowserSync will finish reloading the browser before the build is complete, in order to view your changes, save the file twice.
 
-####  Webpack will be added shorty in 3.0
+####  Webpack will be added shortly in 3.0
