@@ -8,6 +8,6 @@ Static-Live-Server (SLS) is a boilerplate project I created to learn and compare
 
 Clone the repo and run ```npm install``` from there you can remove my HTML, SASS, and Javascript files and insert your own. The server will compile, rebuild the dist folder, and reload the browser with your changes. The default configuration runs the browser over HTTPS and allows you to test your site across devices on your local network using BrowserSync.
 
-Note: There is a bug for Windows users using npm scripts to run the server. BrowserSync will finish reloading the browser before the build is complete, in order to view your changes, save the file twice.
+##### Note: There is a bug for Windows users using npm scripts to run the server. BrowserSync will finish reloading the browser before the build is complete, in order to view your changes, save the file twice.
 
-####  Webpack will be added shortly in 3.0
+##### Note 2: For those using Webpack, the CSS and JS files do not need to be linked in the head of index.html as webpack will inject them, remove those tags or your CSS and JS will be included twice.

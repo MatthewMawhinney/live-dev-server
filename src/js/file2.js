@@ -1,2 +1,5 @@
-console.log('File2');
-console.log('hello');
+export class LiveServer {
+  static consoleServer() {
+    console.log('Live Server Enabled');
+  }
+}
